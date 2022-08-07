@@ -1,0 +1,56 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    height:100vh;
+    background: #27282c;
+}
+
+.botao div{
+
+    display: flex;
+    position: relative;
+    background:#444;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.botao div:hover{
+    letter-spacing: 0.25em;
+}
+
+.botao div::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+  
+}
+
+.instagram:hover{
+    background:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+.twitter:hover{
+    background: #00ACEE;
+}
+
+.whatsapp:hover{
+    background: lightgreen;
+}
